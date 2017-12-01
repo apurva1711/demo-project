@@ -1,0 +1,13 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  mvcmovienew:
+    build:
+      context: C:\Users\bitwisews2016\source\repos\mvcMovieNew\mvcMovieNew
+      dockerfile: Dockerfile
+    image: mvcmovienew
+    ports:
+    - 80/tcp
+version: '3.0'

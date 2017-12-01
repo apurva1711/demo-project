@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mvcmovienew:
+    image: mvcmovienew
+    build:
+      context: .\mvcMovieNew
+      dockerfile: Dockerfile
